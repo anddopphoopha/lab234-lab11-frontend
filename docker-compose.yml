@@ -3,8 +3,8 @@ services:
   backend:
     image: dto80/234-lab11
     ports:
-      - "8083:8080"
+      - "8082:8080"
   frontend:
      image: anddopphoopha/se234-lab10-client:latest
      ports:
-      - "8084:80"
+      - "8081:80"
