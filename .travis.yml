@@ -17,10 +17,10 @@ install:
 - npm install
 - npm run ng-deploy
 - ls -l
-- docker pull dto80/234-lab11
 script:
 - docker build -t anddopphoopha/se234-lab10-client .
 - docker pull anddopphoopha/se234-lab10-client
+- docker pull dto80/234-lab11
 service: docker
 env:
   global:
