@@ -19,7 +19,7 @@ install:
 - ls -l
 script:
 - docker build -t anddopphoopha/se234-lab11-client .
-- docker push anddopphoopha/se234-lab11-client .
+- docker push anddopphoopha/se234-lab11-client
 service: docker
 env:
   global:
