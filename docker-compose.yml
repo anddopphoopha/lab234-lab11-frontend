@@ -6,8 +6,8 @@ services:
       - "8084:8080"
     volumes:
       - type: bind
-      - source: ./xxx
-      - target: /data
+        source: ./xxx
+        target: /data
   frontend:
     image: anddopphoopha/se234-lab11-client:latest
     ports:
